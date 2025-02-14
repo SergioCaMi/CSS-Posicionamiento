@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Posicionamiento Fixed</title>
+    <style>
+
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+
+        body{
+            background-color: #cfcbcb;
+        }
+
+        .header {
+            position: fixed;
+            top:0;
+            width: 100%;
+            background-color: #33354D;
+            color: white;
+            font-size: 2.5rem;
+
+        }
+
+        .main {
+            width: 70%;
+            margin-top: 30px;            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 30px;
+        }
+
+        .title {
+            margin: 30px;
+            width: 100%;
+            color: white;
+            background-color: #33354D;
+            font-size: 2rem;
+
+        }
+
+        .subtitle {
+            border-radius: 15px 15px 0px 0px;
+            padding-left: 15px;
+            color: white;
+            background-color: #26A631;
+            font-size: 1.5rem;
+        }
+
+        .card {
+            width: 70%;
+            background-color: white;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Software libre</div>
+    <div class="main">
+        <div class="title">Escritorio</div>
+        <div class="card">
+            <h2 class="subtitle">7-zip</h2>
+            <p>7-zip es un compresor/descompresor de archivos que maneja los formatos ZIP, RAR, CAB, GZIP, BZIP2 y TAR,
+                así como un
+                formato propio, 7z.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Audacity</h2>
+            <p>Audacity es un editor de audio. Permite reproducir, grabar, editar, mezclar, aplicar efectos, etc.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">GIMP</h2>
+            <p>GIMP (GNU Image Manipulation Program) es un programa de retoque fotográfico y composición y edición de
+                imágenes.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Inkscape</h2>
+            <p>
+                Inkscape es un editor de gráficos vectoriales que utiliza el formato SVG y que también importa formatos
+                como
+                Postscript, EPS, JPEG, PNG, y TIFF y exporta en PNG y varios formatos vectoriales.
+            </p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">LibreOffice</h2>
+            <p>
+                LibreOffice es una suite ofimática completa compuesta de procesador de textos, hoja de cálculo,
+                presentaciones,
+                programa de dibujo, base de datos y editor de ecuaciones.
+            </p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Scribus</h2>
+            <p>Scribus es un programa de maquetación de documentos (en inglés, DeskTop Publishing o DTP).</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">ShareX</h2>
+            <p>
+                ShareX es un capturador de pantallas o vídeo capaz de capturar el escritorio completo, ventanas o
+                diferentes figuras
+                geométricas (rectángulos, círculos, etc.) y copiarlo al portapapeles, al disco duro o subirlo a sitios
+                de Internet.
+            </p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Sumatra PDF</h2>
+            <p>Sumatra PDF es un visualizador de documentos PDF minimalista, que permite ver e imprimir los documentos
+                PDF.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">VLC media player</h2>
+            <p>
+                VideoLAN Media Player es un reproductor multimedia que reproduce numerosos formatos de audio y vídeo,
+                así como DVDs,
+                VCDs y varios protocolos de streaming. También puede utilizarse como servidor unicast o multicast en
+                IPv4 o IPv6.
+            </p>
+        </div>
+        <div class="title">Internet</div>
+        <div class="card">
+            <h2 class="subtitle">FileZilla</h2>
+            <p>FileZilla es un cliente de FTP.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Firefox</h2>
+            <p>
+                Firefox es un navegador web altamente personalizable y ampliable mediante los cientos de extensiones y temas
+                disponibles.
+            </p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">HTTrack</h2>
+            <p>HTTrack permite descargar sitios webs completos para su consulta offline.</p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Pidgin</h2>
+            <p>
+                Pidgin es un cliente de mensajería instantánea, compatible con las redes ICQ, IRC, Jabber, Gadu-Gadu, Zephyr
+                y
+                otras.
+            </p>
+        </div>
+        <div class="card">
+            <h2 class="subtitle">Thunderbird</h2>
+            <p>
+                Thunderbird es un cliente de correo de los creadores de Firefox. Incorpora multitud de características
+                avanzadas y,
+                como Firefox, puede personalizarse mediante temas y ampliar sus posibilidades mediante extensiones.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
